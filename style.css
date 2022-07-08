@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Header section */
+  .header-section {
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    background-image:
+      linear-gradient(to bottom, #0a0a0a80, #000000b4),
+      url(images/donation2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .header-text {
+    padding: 20px;
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    padding-top: 200px;
+  }
+  
+  .header-text h1 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .header-text p {
+    font-size: 18px;
+    margin-bottom: 35px;
+  }
+  
+  .header-text a {
+    text-decoration: none;
+    color: #fff;
+    background-color: tomato;
+    padding: 10px 22px;
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: 20px;
+  }
+  
+  /* Donate section */
+
+  .donate-us {
+    width: 70%;
+    height: 60vh;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  
+  
+  .donate-us h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .donate-us p {
+    font-size: 20px;
+    margin-bottom: 32px;
+  }
+  
+  .donate-taka-sec {
+    width: 75px;
+    background-color: #f3f3f3;
+    padding: 20px 40px;
+    border-radius: 7px;
+    cursor: pointer;
+    border: .1px solid rgba(255, 99, 71, 0);
+  }
+  
+  .donate-us .donate-taka-sec:hover {
+    background-color: rgba(255, 99, 71, 0.219);
+    border: .1px solid rgba(255, 99, 71, 0.658);
+  }
+  
+  .donate-taka-sec:nth-child(2) {
+    background-color: rgba(255, 99, 71, 0.219);
+    border: .1px solid rgba(255, 99, 71, 0.658);
+  }
+  
+  .flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 45px;
+  }
+  
+  .donate-taka-sec p {
+    margin-bottom: 0px;
+    font-size: 30px;
+  }
+  
+  .donate-us input[type=text] {
+    border: none;
+    border-bottom: 1px solid lightgray;
+    width: 60%;
+    padding: 10px 115px;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .donate-us input[type=submit] {
+    text-decoration: none;
+    color: #fff;
+    background-color: tomato;
+    padding: 10px 22px;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: 0;
+    border: none;
+    font-size: 20px;
+  }
+  
+  /* donate plane section */
+  
+  .donate-plane {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 130px;
+    margin-bottom: 65px;
+  }
+  
+  .donate-plane h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .donate-plane #donate-plane-p {
+    font-size: 20px;
+    width: 54%;
+    margin: 10px auto;
+  }
+  
+  .donate-plan-card {
+    width: 100%;
+    text-align: left;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 70px 0px;
+  }
+  
+  .donate-plan-card .card {
+    width: 20%;
+  }
+  
+  .donate-plan-card .one {
+    background-color: rgba(255, 99, 71, 0.205);
+    padding: 25px;
+    border-radius: 5px;
+  }
+  
+  .donate-plan-card .two {
+    background-color: rgba(210, 180, 140, 0.205);
+    padding: 25px;
+    border-radius: 5px;
+  }
+  
+  .donate-plan-card .three {
+    background-color: rgba(0, 128, 128, 0.205);
+    padding: 25px;
+    border-radius: 5px;
+  }
+  
+  
+  
+  .donate-plan-card .card img {
+    width: 45px;
+  }
+  
+  .donate-plan-card .card h3 {
+    font-size: 20px;
+    margin: 15px 0px;
+  }
+  
+  .donate-plan-card .card p {
+    font-size: 15px;
+  }
+  
+
+
+  /* Service section 2*/
+  
+  .service-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10% 3%;
+  }
+  
+  .service-section-area {
+    width: 35%;
+    overflow: hidden;
+  
+  }
+  
+  .radius {
+    border-radius: 25px;
+  }
+  
+  .service-section-area h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .service-section-area p {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .service-section-area input[type=submit] {
+    text-decoration: none;
+    color: #fff;
+    background-color: tomato;
+    padding: 10px 22px;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: 0;
+    border: none;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .service-section-area img {
+    height: 584px;
+  }
+  
+  
+
+  /* Our Project section  Bonus section */
+  .donation-projects {
+    margin: 25px auto;
+  }
+  
+  .donation-projects h1 {
+    font-size: 40px;
+    margin-bottom: 45px;
+    text-align: center;
+  }
+  
+  .donation-project-flex {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .cart-img {
+    overflow: hidden;
+    width: 100%;
+    height: 150px;
+    border-radius: 15px;
+  }
+  
+  .project-cart {
+    width: 20%;
+    padding: 10px;
+    background-color: #00000008;
+    margin-right: 20px;
+    border-radius: 15px;
+  }
+  
+  .project-cart address {
+    font-size: 15px;
+    margin-top: 15px;
+    line-height: 20px;
+  }
+  
+  /* donate more section */
+  .donate-more {
+    padding: 2%;
+    text-align: center;
+    background-color: #00000008;
+    margin: 5% 0%;
+  }
+  
+  .donate-more a {
+    text-decoration: none;
+    padding: 10px 40px;
+    background-color: tomato;
+    border-radius: 8px;
+    color: #fff;
+  }
+  
+
+  /* update section */
+  .update {
+    width: 45%;
+    text-align: center;
+    margin: 0px auto;
+  }
+  
+  .update h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .update p {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .update-email-sec {
+    margin-top: 40px;
+    padding: 55px;
+    background-color: #ff63471a;
+  }
+  
+  .update-email-sec input[type=email] {
+    border: 1px solid #ff634780;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 11px 50px;
+    margin-right: -7px;
+    width: 45%;
+  }
+  
+  .update-email-sec input[type=submit] {
+    text-decoration: none;
+    color: #fff;
+    background-color: tomato;
+    padding: 8px 40px;
+    cursor: pointer;
+    outline: 0;
+    border: none;
+    font-size: 20px;
+  
+  }
+  
+  /* footer section */
+  
+  .footer-section {
+    width: 98.5%;
+    height: 45%;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 5%;
+  }
+  
+  .footer-section p {
+    font-size: 12px;
+    padding: 2px;
+  }
+  
+  
+  
+  .footer-section h1 {
+    color: tomato;
+    font-weight: 400;
+    font-family: 'The Nautigal', cursive;
+  }
